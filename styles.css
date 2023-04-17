@@ -1,0 +1,110 @@
+#container {
+    text-align: center;
+}
+#hiddenText {
+  display: none;
+  
+}
+
+a {
+    outline: 0;
+    text-align: center;
+    color: white;
+    text-align: center;
+}
+
+
+
+img {
+    height: 388px;
+    width: 388px;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+    outline: 0;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+#clicks {
+    font-size: 55px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    text-align: center;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+   
+    align-items: center;
+    justify-content: center;
+    background-color: #36454f; /* set your default color here */
+    
+    text-align: center;
+}
+
+p {
+    outline: 0;
+    text-align: center;
+    color: white;
+    text-align: center;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 25px;
+}
+
+#blog {
+    width: 55%;
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+    font-family: 'Mouse Memoirs', sans-serif;
+    
+}
+
+h1,h2,h3,h4,h5,h6 {
+    outline: 0;
+    text-align: center;
+    color: white;
+    text-align: center;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 50px;
+
+}
+
+@media only screen and (max-width: 380px) {
+    body {
+        align-items: center;
+        justify-content: center;
+        background-color: #6e6e6e; /* set your default color here */
+        background-image: url("mobile.png");
+      
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    img {
+        height: 288px;
+        width: 288px;
+        padding: 0;
+        margin: 0;
+        
+    }
+    #blog {
+        width: 75%;
+        
+        text-align: center;
+        
+    }
+    
+}
+
